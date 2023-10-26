@@ -40,5 +40,8 @@
     <Text Include="maze4.txt">
       <Filter>Source Files</Filter>
     </Text>
+    <Text Include="maze5.txt">
+      <Filter>Source Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

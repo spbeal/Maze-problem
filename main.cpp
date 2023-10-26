@@ -14,12 +14,8 @@ int main()
 
     while (loop)
     {
-
         loop = s.OpenFile();
-
-        
     }
-
     return 0;
 }
 

@@ -138,6 +138,7 @@
     <Text Include="maze2.txt" />
     <Text Include="maze3.txt" />
     <Text Include="maze4.txt" />
+    <Text Include="maze5.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
