@@ -1,4 +1,4 @@
-
+// CS 121 maze.cpp
 #include "maze.h"
 #include <iostream>
 #include <fstream>
@@ -6,7 +6,6 @@
 
 using namespace std;
 
-// Initalize Array
 bool Cells::OpenFile()
 {
     // User input to choose which maze to traverse
@@ -32,8 +31,8 @@ bool Cells::OpenFile()
             myFile.close();
             // Traverse maze
             int traversable = TraverseMaze(maze);
-            if (traversable == 1) cout << "It is traversable" << endl;
-            else std::cout << "Not traversable" << endl;
+            if (traversable == 1) cout << "It is traversable" << endl << endl;
+            else std::cout << "Not traversable" << endl << endl;
         }
     }
     return 1;
@@ -88,11 +87,12 @@ char** Cells::InitalizeArray(ifstream& myFile)
 
 bool Cells::TraverseMaze(char** maze)
 {
+    // for traversing multiple times per compile
+    ClearQueue(); 
     Index curr;
-    ClearQueue(); // for traversing multiple times per compile
 
     // Acquire locations of 'S'
-    // Initailize a 2D array of bools for visited
+    // Initailize a 2D array of bools for visited cells
     bool** visited = new bool* [ROWS];
     for (int i = 0; i < ROWS; i++)
     {

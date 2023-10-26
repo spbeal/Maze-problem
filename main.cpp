@@ -1,6 +1,6 @@
-// CS 121 Assignment 4
+// CS 121 main.cpp
+// Assignment 4
 // Samuel Beal
-// Maze.cpp 
 
 #include <iostream>
 #include "maze.h"
