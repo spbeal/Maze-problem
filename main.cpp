@@ -14,7 +14,7 @@ int main()
 
     while (loop)
     {
-        loop = s.OpenFile();
+        loop = s.OpenFile(); 
     }
     return 0;
 }

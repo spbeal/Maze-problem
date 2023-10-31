@@ -117,9 +117,24 @@ bool Cells::TraverseMaze(char** maze)
         curr = Dequeue();
         visited[curr.row][curr.col] = 1;
         bool goal = Adjacent(curr, maze, visited);
+
         // Check for 'G'
-        if (goal == 1) 
-            return 1;
+        if (goal == 1 || IsEmpty() == 1)
+        {
+            for (int i = 0; i < ROWS; i++)
+            {
+                for (int j = 0; j < COLS; j++)
+                {
+                    if (maze[i][j] == 'S') std::cout << 'S';
+                    else if (visited[i][j] == 0 && maze[i][j] == 'G') std::cout << 'G';
+                    else if (visited[i][j] == 0 && maze[i][j] != '#') std::cout << '.';
+                    else if (visited[i][j] == 0) std::cout << '#';
+                    else if (visited[i][j] != 0) std::cout << '>';
+                }
+                std::cout << endl;
+            }
+            return goal;
+        }
 
     } while (IsEmpty() != 1);
 
