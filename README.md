@@ -2,11 +2,11 @@
 
 Data types: Dynamic 2D Array, queue, struct for indexes, strings, char** array, int, bool.
 
-main.cpp
+<li> main.cpp </li>
 Set up a while loop to keep program running until user says to quit
 Call a function to the functionality in maze.cpp
 
-maze.h
+<li> maze.h </li>
 Cell Class 
 Struct for queue
 Struct for indexes
@@ -14,7 +14,7 @@ Initialize front/rear to NULL
 Contains Enqueue, Dequeue, isEmpty, and clear entire queue, 
 Contains prototypes of functions to handle input, initialize arrays, and traverse the maze. 
 
-maze.cpp
+<li> maze.cpp </li>
 Based on user input open selected file
 Grab first line of input for length and width of maze/array
 Initialize a char 2D array dynamically for maze
