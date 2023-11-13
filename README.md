@@ -2,11 +2,9 @@
 
 <div className=''>
 <p>
-    <img src="maze output 1-2.png" width="220" height="240" />
+    <img src="[maze output 1-2.png](https://github.com/spbeal/Maze-problem/blob/991f523e42ce4f079623c5f5afd409d2c3f78147/2d%20array%20diagram.png)" width="220" height="240" />
 </p>
   
-![Image](maze output 1-2.png)
-![image](https://github.com/spbeal/Maze-problem/blob/8ec6d8c8f75ac07777a659023096b63865972691/maze%20output%201-2.png)
 <p>Data types: Dynamic 2D Array, queue, struct for indexes, strings, char** array, int, bool.</p>
 <p></p>
 
