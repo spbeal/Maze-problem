@@ -1,7 +1,7 @@
 # Maze-problem
 
 <div className=''>
-![image](https://github.com/spbeal/Maze-problem/blob/maze%20output%201-2.png)
+![image](https://github.com/spbeal/Maze-problem/blob/8ec6d8c8f75ac07777a659023096b63865972691/maze%20output%201-2.png)
 <p>Data types: Dynamic 2D Array, queue, struct for indexes, strings, char** array, int, bool.</p>
 <p></p>
 
