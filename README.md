@@ -2,7 +2,7 @@
 
 <div className=''>
 <p>
-    <img src="https://github.com/spbeal/Maze-problem/blob/991f523e42ce4f079623c5f5afd409d2c3f78147/2d%20array%20diagram.png" width="" height="" />
+    <img src="https://github.com/spbeal/Maze-problem/blob/8ec6d8c8f75ac07777a659023096b63865972691/maze%20output%201-2.png" width="" height="" />
 </p>
   
 <p>Data types: Dynamic 2D Array, queue, struct for indexes, strings, char** array, int, bool.</p>
@@ -12,7 +12,9 @@
 <p>Based on user input open selected file</p>
 <p>Grab first line of input for length and width of maze/array</p>
 <p>Initialize a char 2D array dynamically for maze</p>
-![image](https://github.com/spbeal/Maze-problem/blob/dfbbe4328fc6ec7fce148e85539d4fdcf27d70c2/2d%20array%20diagram.png)
+<p>
+    <img src="https://github.com/spbeal/Maze-problem/blob/991f523e42ce4f079623c5f5afd409d2c3f78147/2d%20array%20diagram.png" width="" height="" />
+</p>
 <p>Put the values of the chosen txt file into the maze array</p>
 <p>Pass maze array into a function to traverse the array</p>
 <p>Initialize a bool 2D array dynamically for visited cells</p>
