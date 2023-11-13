@@ -4,17 +4,6 @@
 
 <p>Data types: Dynamic 2D Array, queue, struct for indexes, strings, char** array, int, bool.</p>
 <p></p>
-<p>--main.cpp </p>
-<p>Set up a while loop to keep program running until user says to quit</p>
-<p>Call a function to the functionality in maze.cpp</p>
-
-<p>--maze.h </p>
-<p> Cell Class  </p>
-<p>Struct for queue</p>
-<p>Struct for indexes</p>
-<p>Initialize front/rear to NULL</p>
-<p>Contains Enqueue, Dequeue, isEmpty, and clear entire queue, </p>
-<p>Contains prototypes of functions to handle input, initialize arrays, and traverse the maze. </p>
 
 <p>--maze.cpp </p>
 <p>Based on user input open selected file</p>
@@ -33,5 +22,17 @@
 <p>Pass the maze array, visited array, and index of the current cell into a bool function to Enqueue all adjacent cells. Account for walls, and stay inside the size of the array. </p>
 <p>Return whether an adjacent cell is our goal ‘G’. If so, return, print out the maze path, and declare whether it was traversable. </p>
 <p>REPEAT (while queue is not empty)</p>
+
+<p>--maze.h </p>
+<p> Cell Class  </p>
+<p>Struct for queue</p>
+<p>Struct for indexes</p>
+<p>Initialize front/rear to NULL</p>
+<p>Contains Enqueue, Dequeue, isEmpty, and clear entire queue, </p>
+<p>Contains prototypes of functions to handle input, initialize arrays, and traverse the maze. </p>
+
+<p>--main.cpp </p>
+<p>Set up a while loop to keep program running until user says to quit</p>
+<p>Call a function to the functionality in maze.cpp</p>
 
 </div>
