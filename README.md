@@ -1,5 +1,7 @@
 # Maze-problem
 
+<div className=''>
+
 Data types: Dynamic 2D Array, queue, struct for indexes, strings, char** array, int, bool.
 
 <li> main.cpp </li>
@@ -31,3 +33,5 @@ Mark our current cell in our bool array of visited cells to 1.
 Pass the maze array, visited array, and index of the current cell into a bool function to Enqueue all adjacent cells. Account for walls, and stay inside the size of the array. 
 Return whether an adjacent cell is our goal ‘G’. If so, return, print out the maze path, and declare whether it was traversable. 
 REPEAT (while queue is not empty)
+
+</div>
