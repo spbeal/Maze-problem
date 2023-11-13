@@ -2,8 +2,8 @@
 
 <div className=''>
 
-Data types: Dynamic 2D Array, queue, struct for indexes, strings, char** array, int, bool.
-
+<p>Data types: Dynamic 2D Array, queue, struct for indexes, strings, char** array, int, bool.</p>
+<p></p>
 <p>--main.cpp </p>
 <p>Set up a while loop to keep program running until user says to quit</p>
 <p>Call a function to the functionality in maze.cpp</p>
