@@ -1,7 +1,7 @@
 # Maze-problem
 
 <div className=''>
-
+![image](https://github.com/spbeal/reactjs/blob/main/maze output 1-2.png)
 <p>Data types: Dynamic 2D Array, queue, struct for indexes, strings, char** array, int, bool.</p>
 <p></p>
 
@@ -9,7 +9,7 @@
 <p>Based on user input open selected file</p>
 <p>Grab first line of input for length and width of maze/array</p>
 <p>Initialize a char 2D array dynamically for maze</p>
-
+![image](https://github.com/spbeal/reactjs/blob/main/2d array diagram.png)
 <p>Put the values of the chosen txt file into the maze array</p>
 <p>Pass maze array into a function to traverse the array</p>
 <p>Initialize a bool 2D array dynamically for visited cells</p>
