@@ -109,7 +109,7 @@ bool Cells::TraverseMaze(char** maze)
             }
         }
     }
-
+    
     do
     {
         // Dequeue to current cell, declare it visited, 
